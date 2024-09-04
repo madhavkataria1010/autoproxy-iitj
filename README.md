@@ -1,6 +1,3 @@
-Here's a `README.md` file for your `autoproxy-iitj` project:
-
-```markdown
 # autoproxy-iitj
 
 This project is designed to automate the proxy login process for IITJ using a Python script.
