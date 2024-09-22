@@ -21,7 +21,7 @@ token_match = re.search(r'window.location="https://gateway\.iitj\.ac\.in:1003/fg
 
 if not token_match:
     if not check_internet():
-        exit() 
+        exit()
 else:
     token = token_match.group(1)
     fgtauth_url = f"https://gateway.iitj.ac.in:1003/fgtauth?{token}"
@@ -60,4 +60,3 @@ else:
             print("Ping failed after login.")
     else:
         print(f"Login failed with status code: {login_response.status_code}")
-
