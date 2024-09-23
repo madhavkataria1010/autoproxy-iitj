@@ -39,8 +39,8 @@ else:
     magic = magic_match.group(1)
     redir_url = redir_match.group(1)
 
-    username = 'b23ch1025'
-    password = 'Worldofdogsfullofshit,.98'
+    username = '' # user name
+    password = '' # Password 
 
     login_data = {
         'magic': magic,
