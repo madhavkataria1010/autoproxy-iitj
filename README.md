@@ -32,17 +32,18 @@ To automate the process and run the Python script every 2 seconds until it compl
    ./scheduler.sh
    ```
 
-The `scheduler.sh` script will continue to run `autoproxy.py` every 2 seconds until the Python script completes successfully. Once the script completes, the scheduler will exit.
+The `scheduler.sh` script will continue to run `autoproxy.py` every hour until the Python script completes successfully. Once the script completes, the scheduler will exit.
 
 ## Files
 
 - **autoproxy.py**: The Python script that handles the proxy login.
-- **scheduler.sh**: The shell script that runs `autoproxy.py` every 2 seconds until it completes successfully.
+- **scheduler.sh**: The shell script that runs `autoproxy.py` every hour until it completes successfully.
 
 ## Requirements
 
 - Python 3.x
 - lynx (browser installed)
+- cron
 - Bash shell (for running `scheduler.sh`)
 
 
